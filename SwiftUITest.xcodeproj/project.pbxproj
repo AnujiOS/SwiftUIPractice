@@ -52,10 +52,9 @@
 		4D560753256AA355009136DD /* SwiftUITest */ = {
 			isa = PBXGroup;
 			children = (
-				4D560754256AA355009136DD /* SwiftUITestApp.swift */,
-				4D560756256AA355009136DD /* ContentView.swift */,
-				4D560758256AA357009136DD /* Assets.xcassets */,
-				4D56075D256AA357009136DD /* Info.plist */,
+				4D560769256ACC1F009136DD /* Application */,
+				4D560768256ACC08009136DD /* Views */,
+				4D56076A256ACC2E009136DD /* Resource */,
 				4D56075A256AA357009136DD /* Preview Content */,
 			);
 			path = SwiftUITest;
@@ -67,6 +66,32 @@
 				4D56075B256AA357009136DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D560768256ACC08009136DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D560756256AA355009136DD /* ContentView.swift */,
+				4D560764256ABDDE009136DD /* TabBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D560769256ACC1F009136DD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4D560754256AA355009136DD /* SwiftUITestApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D56076A256ACC2E009136DD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D560758256AA357009136DD /* Assets.xcassets */,
+				4D56075D256AA357009136DD /* Info.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +296,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITest/Preview Content\"";
 				DEVELOPMENT_TEAM = WMMDDS7636;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUITest/Info.plist;
+				INFOPLIST_FILE = SwiftUITest/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +318,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITest/Preview Content\"";
 				DEVELOPMENT_TEAM = WMMDDS7636;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUITest/Info.plist;
+				INFOPLIST_FILE = SwiftUITest/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
