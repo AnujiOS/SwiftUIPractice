@@ -11,6 +11,7 @@
 		4D560757256AA355009136DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D560756256AA355009136DD /* ContentView.swift */; };
 		4D560759256AA357009136DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D560758256AA357009136DD /* Assets.xcassets */; };
 		4D56075C256AA357009136DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D56075B256AA357009136DD /* Preview Assets.xcassets */; };
+		4D560765256ABDDE009136DD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D560764256ABDDE009136DD /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4D560758256AA357009136DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D56075B256AA357009136DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D56075D256AA357009136DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D560764256ABDDE009136DD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D560757256AA355009136DD /* ContentView.swift in Sources */,
+				4D560765256ABDDE009136DD /* TabBarView.swift in Sources */,
 				4D560755256AA355009136DD /* SwiftUITestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
